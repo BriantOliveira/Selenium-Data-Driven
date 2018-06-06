@@ -5,9 +5,9 @@ Resource  ../Resources/PO/SignIn.robot
 Login with Many Invalid Credentials
     [Arguments]   ${InvalidLoginScenarios}
     :FOR  ${LoginScenario} IN  @{InvalidLoginScenarios}
-    \  SignIn.Navigate To
-    \  Attempt Login  ${LoginScenario}
-    \  Verify Login Page Error Message  ${LoginScenario}
+    \  run keyword and continue on failure  SignIn.Navigate To
+    \  run keyword and continue on failure  Attempt Login  ${LoginScenario}
+    \  run keyword and continue on failure  Verify Login Page Error Message  ${LoginScenario}
 
 Test Multiple Login Scenarios
     [Arguments]  ${Credentials}
