@@ -4,7 +4,7 @@ Resource  ../Resources/PO/SignIn.robot
 *** Keywords ***
 Login with Many Invalid Credentials
     [Arguments]   ${InvalidLoginScenarios}
-    :FOR  ${LoginScenario} IN  ${InvalidLoginScenarios}
+    :FOR  ${LoginScenario} IN  @{InvalidLoginScenarios}
     \  SignIn.Navigate To
     \  Attempt Login  ${LoginScenario}
     \  Verify Login Page Error Message  ${LoginScenario}
