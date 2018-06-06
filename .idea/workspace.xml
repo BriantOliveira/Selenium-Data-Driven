@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ad725e4-246f-461b-8bab-51a413035e54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Tests/Cars.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Cars.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Users.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/InputData.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Data/InputData.robot" afterDir="false" />
     </list>
     <ignored path="amazon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +25,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf>
-          <file leaf-file-name="Cars.robot" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Cars.robot" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Tests/Cars.robot">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
@@ -31,6 +33,24 @@
                   <folding>
                     <element signature="e#0#250#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Users.csv" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Data/Users.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="30">
+                  <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="InputData.robot" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Data/InputData.robot">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="120">
+                  <caret line="8" selection-start-line="8" selection-end-line="8" />
                 </state>
               </provider>
             </entry>
@@ -75,10 +95,11 @@
         <option value="$PROJECT_DIR$/Data/Users.json" />
         <option value="$PROJECT_DIR$/CustomLibs/Json.py" />
         <option value="$PROJECT_DIR$/Resources/Common.robot" />
-        <option value="$PROJECT_DIR$/Data/InputData.robot" />
         <option value="$PROJECT_DIR$/Resources/PO/SignIn.robot" />
         <option value="$PROJECT_DIR$/Resources/CarsApp.robot" />
         <option value="$PROJECT_DIR$/Tests/Cars.robot" />
+        <option value="$PROJECT_DIR$/Data/InputData.robot" />
+        <option value="$PROJECT_DIR$/Data/Users.csv" />
       </list>
     </option>
   </component>
@@ -103,7 +124,7 @@
             <path>
               <item name="data-driven-ext-base" type="b2602c69:ProjectViewProjectNode" />
               <item name="data-driven-ext-base" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="data-driven-ext-base" type="b2602c69:ProjectViewProjectNode" />
@@ -238,13 +259,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data/InputData.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="22" selection-end-line="8" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/PO/SignIn.robot">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -482,13 +496,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Data/InputData.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -509,6 +516,20 @@
           <folding>
             <element signature="e#0#250#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/InputData.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/Users.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="54" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
         </state>
       </provider>
     </entry>
